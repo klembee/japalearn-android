@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_home"
+    app:startDestination="@id/nav_dictionary">
+
+    <fragment
+        android:id="@+id/nav_dictionary"
+        android:name="com.japalearn.mobile.ui.dictionary.DictionaryFragment"
+        android:label="@string/menu_dictionary"
+        tools:layout="@layout/fragment_dictionary"/>
+    <fragment
+        android:id="@+id/nav_feedback"
+        android:name="com.japalearn.mobile.ui.report.ReportFragment"
+        android:label="Bug report"
+        tools:layout="@layout/fragment_bug_report"/>
+    <fragment
+        android:id="@+id/nav_kanjis"
+        android:name="com.japalearn.mobile.ui.kanjis.categories.KanjisFragment"
+        android:label="@string/menu_kanjis"
+        tools:layout="@layout/fragment_kanjis"/>
+    <fragment
+        android:id="@+id/nav_review"
+        android:name="com.japalearn.mobile.ui.review.ReviewFragment"
+        android:label="ReviewFragment"
+        tools:layout="@layout/fragment_review"/>
+    <fragment
+        android:id="@+id/nav_flash_cards"
+        android:name="com.magestionplus.android.ui.flashcards.FlashCardsFragment"
+        android:label="FlashCardsFragment" />
+</navigation>

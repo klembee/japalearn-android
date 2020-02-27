@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/chooseDeckLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="16dp"
+            android:text="@string/edit_flash_card_deck_name"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/deck_choice_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/flashcardsLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chooseDeckLayout">
+
+        <com.japalearn.mobile.ui.flashcards.views.FlashCardEditView
+            android:id="@+id/flash_card_edit_front"
+            android:layout_width="@dimen/flash_card_width"
+            android:layout_height="@dimen/flash_card_width"
+            android:layout_marginBottom="32dp"
+            app:hint="@string/edit_flash_card_example_front"
+            app:side="front">
+
+        </com.japalearn.mobile.ui.flashcards.views.FlashCardEditView>
+
+        <com.japalearn.mobile.ui.flashcards.views.FlashCardEditView
+            android:id="@+id/flash_card_edit_back"
+            android:layout_width="@dimen/flash_card_width"
+            android:layout_height="@dimen/flash_card_width"
+            app:hint="@string/edit_flash_card_example_back"
+            app:side="back"
+            app:title="@string/edit_flash_card_back" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

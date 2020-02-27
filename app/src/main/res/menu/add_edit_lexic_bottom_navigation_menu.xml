@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_edit_lexic_from_dictionary"
+        android:icon="@drawable/ic_book_solid"
+        android:title="@string/edit_lexic_bottom_nav_from_dic" />
+    <item
+        android:id="@+id/menu_edit_lexic_custom"
+        android:icon="@drawable/ic_edit_regular"
+        android:title="@string/edit_lexic_bottom_nav_custom" />
+</menu>

@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">JapaLearn</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_save">Save</string>
+
+    <!-- Drawer menu items -->
+    <string name="menu_home">Home</string>
+    <string name="menu_dictionary">Dictionary</string>
+    <string name="menu_kanjis">Kanjis</string>
+    <string name="menu_configuration">Configuration</string>
+    <string name="menu_flash_cards">Flash cards</string>
+    <string name="menu_feedback">Give feedback</string>
+    <string name="menu_logout">Log out</string>
+
+    <!-- Bug report activity -->
+    <string name="activity_bug_report_title">Bug report</string>
+    <string name="activity_bug_report_description">The JapaLearn application is still in its early stages. I would greatly appreciate it if your would take the time to tell me about bugs you find or features you would like to have. This will allow me to fix the bugs faster and give you a better experience using the JapaLearn application. \n\n - Clément (The developer of JapaLearn)</string>
+    <string name="activity_bug_report_type_title">I would like to…</string>
+    <string-array name="activity_bug_report_type">
+        <item>Report a bug</item>
+        <item>Suggest a feature</item>
+    </string-array>
+    <string-array name="activity_bug_report_location">
+        <item>Dictionary</item>
+        <item>Flash cards</item>
+        <item>Stories</item>
+    </string-array>
+    <string name="bug_report_description_hint">Description of the bug</string>
+    <string name="bug_report_location">Where does it happen?</string>
+    <string name="bug_report_submit">Submit</string>
+    <string name="report_description_feature">Description of the feature</string>
+    <string name="report_feature_location">Which section?</string>
+    <string name="thank_you_for_feedback">Thank you for your feedback !</string>
+
+    <!-- Dictionary fragment -->
+    <string name="search_bar_hint">Search for a word, kanji, etc...</string>
+    <string name="dictionary_entry_meaning">Meanings</string>
+    <string name="dictionary_search_button">Search</string>
+
+    <!-- Log in activity -->
+    <string name="email_field_hint">Your email</string>
+    <string name="password_field_hint">Your password</string>
+    <string name="dont_have_an_account_button">Dont have an account?</string>
+    <string name="login_button">Log in</string>
+
+    <!-- Flash cards fragment -->
+    <plurals name="deck_item_number_of_cards">
+        <item quantity="one">%d card</item>
+        <item quantity="other">%d cards</item>
+    </plurals>
+    <string name="create_deck_btn">New deck</string>
+    <string name="create_card_btn">New card</string>
+    <string name="edit_specific_deck_btn">Edit deck</string>
+    <string name="play_deck">Play</string>
+
+    <!-- Edit flash card activity -->
+    <string name="edit_flash_card_deck_name">Add to deck:</string>
+    <string name="edit_flash_card_front">Front</string>
+    <string name="edit_flash_card_back">Back</string>
+    <string name="edit_flash_card_example_front">今日は</string>
+    <string name="edit_flash_card_example_back">Hello; good afternoon</string>
+
+    <!-- Edit card deck activity -->
+    <string name="edit_card_deck_title">Name of the deck</string>
+
+    <!-- Play deck activity -->
+    <string name="play_deck_show_answer_btn">Show answer</string>
+    <string name="play_deck_wrong_answer">Wrong answer</string>
+    <string name="play_deck_right_answer">Got it right !</string>
+    <string name="congratulations">Congrats !</string>
+    <string name="move_on">Move on</string>
+    <plurals name="items_got_right">
+        <item quantity="one">%d item got right</item>
+        <item quantity="other">%d items got right</item>
+    </plurals>
+    <string name="ratio_right_wrong_txt">Ratio right/wrong: %d\%%</string>
+
+    <!-- Kanji fragment -->
+    <plurals name="kanji_category_list_number_of_kanjis">
+        <item quantity="one">%d kanji in this category</item>
+        <item quantity="other">%d kanjis in this category</item>
+    </plurals>
+    <plurals name="kanji_view_nb_strokes">
+        <item quantity="one">%d stroke</item>
+        <item quantity="other">%d strokes</item>
+    </plurals>
+    <string name="kanji_view_kun_reading">Kun readings:</string>
+    <string name="kanji_view_on_reading">On readings:</string>
+
+    <!-- Review fragment -->
+    <string name="review_nav_txt">Reviews</string>
+    <string name="numberOfReviewTxt">Number of review remaining</string>
+    <string name="reviewButton">Review</string>
+    <string name="numberOfVocabularyTxt">Number of vocabulary</string>
+    <string name="numberOfVocabularyButton">View</string>
+    <string name="no_lexic_to_study">You don\'t have any vocabulary to study right now</string>
+    <string name="item_level_txt">Level %d</string>
+    <string name="item_next_review_time">Next review in %s</string>
+    <string name="item_ready_for_review">Item ready for review</string>
+    <string name="review_menu_sync_item">Sync</string>
+
+    <!-- Add edit lexic -->
+    <string name="edit_lexic_word_text_view">Word</string>
+    <string name="edit_lexic_meaning_text_view">Meaning</string>
+    <string name="edit_lexic_bottom_nav_from_dic">From dictionary</string>
+    <string name="edit_lexic_bottom_nav_custom">Custom</string>
+    <string name="this_item_has_other_meanings">Other meanings</string>
+
+    <!-- Strings related to time -->
+    <plurals name="time_minutes">
+        <item quantity="one">%d minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+    <plurals name="time_hours">
+        <item quantity="one">%d hour</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+    <plurals name="time_days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="time_months">
+        <item quantity="one">%d month</item>
+        <item quantity="other">%d months</item>
+    </plurals>
+
+</resources>
